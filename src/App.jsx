@@ -47,8 +47,8 @@ function App() {
       <h3 className='text-center'>Simple CRUD Application</h3>
       <div className='form__container'>
            <form onSubmit={handelAddUser} className='d-flex'>
-             <input type="text" name="name" />
-             <input type="email" name="email" />
+             <input type="text" name="name" placeholder='Enter Your Name' />
+             <input type="email" name="email" placeholder='Enter Your Email' />
             <input type="submit" value="Add User" />
            </form>
       </div>
